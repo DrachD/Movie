@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="rightAddress">The Right Address\nTo watch movies\nAny day</string>
+    <string name="quality">Best and popular movies\nin this application</string>
+</resources>

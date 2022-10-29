@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/introductionFragment">
+
+    <fragment
+        android:id="@+id/introductionFragment"
+        android:name="com.dmitriy.movie.fragments.loginRegister.IntroductionFragment"
+        android:label="Start"
+        tools:layout="@layout/fragment_intruduction" >
+        <action
+            android:id="@+id/action_introductionFragment_to_accountOptionsFragment"
+            app:destination="@id/accountOptionsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountOptionsFragment"
+        android:name="com.dmitriy.movie.fragments.loginRegister.AccountOptionsFragment"
+        android:label="Options"
+        tools:layout="@layout/fragment_account_options" >
+        <action
+            android:id="@+id/action_accountOptionsFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_accountOptionsFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.dmitriy.movie.fragments.loginRegister.LoginFragment"
+        android:label="SignIn"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_tabsFragment"
+            app:destination="@id/tabsFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.dmitriy.movie.fragments.loginRegister.RegisterFragment"
+        android:label="SignUp"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/tabsFragment"
+        android:name="com.dmitriy.movie.view.tabs.TabsFragment"
+        android:label="fragment_tabs"
+        tools:layout="@layout/fragment_tabs" />
+</navigation>

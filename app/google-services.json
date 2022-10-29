@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "496483938609",
+    "project_id": "movie-ad8c3",
+    "storage_bucket": "movie-ad8c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496483938609:android:e9f4c460303c09d78e0010",
+        "android_client_info": {
+          "package_name": "com.dmitriy.movie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496483938609-d77cfhncifa0vogilflmnq99vgpntkgj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz7mI99mzP5Xa8H1PDovtjZFvhOwy4HSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496483938609-d77cfhncifa0vogilflmnq99vgpntkgj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
