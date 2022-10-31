@@ -5,6 +5,7 @@
 - Kotlin
 - MVVM
 - Navigation
+- Firebase
 - Gson
 - Retrofit2
 - OkHttp
